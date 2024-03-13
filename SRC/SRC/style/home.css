@@ -1,0 +1,317 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: auto;
+  background-color: #fcfcfc;
+}
+
+header {
+  background-color: #333;
+  color: rgb(120, 13, 13);
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image:url("../images/emp3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position:center;
+  
+ color: white;
+  
+}
+
+.hero-section {
+  
+  background-size: cover;
+  background-position: center;
+  /*color: rgb(255, 255, 255);*/
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-text {
+  font-size: 36px;
+  margin-bottom: 20px;
+  /*color: white;*/
+  
+}
+
+.hero-button {
+  background-color:#ff511c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  transition: width 2s;
+  transition-duration: 2s;
+  
+}
+
+.hero-button:hover {
+  background-color: #ff511c;
+  width: 250px;
+  height: 50px;
+}
+
+.search-bar {
+  padding: 10px 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding-left: 800px ;
+}
+*::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0;
+  background-color: white;
+  position: fixed;
+}
+
+.nav .logo h1{
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #000000;
+  padding-left: 20px;
+  
+}
+/* colour of the Hub section in name */
+.nav .logo b{
+  color: #ff511c;
+
+}
+/* colour of the job section in name */
+.nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li{
+  margin-right: 30px;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.menu ul li a:hover{
+  border-bottom: 4px solid #ff511c ;
+  transition: 0.4s;
+}
+
+.nav ul .active::after{
+  content: '';
+  width: 50%;
+  height: 3px;
+  display: flex;
+  position: relative;
+  margin-left: 10px;
+}
+
+.fa{
+  font-size: 26px;
+  transition: .4s;
+  
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+li{
+  padding: 2px;
+}
+.checked{
+  color: yellow;
+}
+
+input{
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  
+}
+
+.Login{
+  background-color: #007BFF;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.SignUp{
+  background-color: #007BFF;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.PostJobs{
+  background-color:#007BFF;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+  background-color: white;
+  width: 50%;
+  height: 20%;
+  
+}
+
+.footerContainer{
+  width: 90%;
+  padding: 10px 10px 10px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: #ff511c;
+  transition: 0.9;
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav{
+  margin: 30px 0;
+}
+
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav ul li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+
+.footerBottom{
+  padding: 10px;
+  text-align: center;
+}
+
+.footerBottom p{
+  color: black;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media(max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#searchicon {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px; /* Adjust the width and height as needed */
+  height: 20px;
+  background-color: white;
+}
+
+#search-input {
+  padding: 10px 500px 10px 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search {
+  position: relative;
+  display: inline-block;
+}
+	
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+

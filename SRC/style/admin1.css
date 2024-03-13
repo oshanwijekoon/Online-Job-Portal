@@ -1,0 +1,96 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  
+  body {
+    background-color: aqua;
+  }
+  
+  .contestant {
+    width: 250px;
+    padding: 5px 3px;
+    margin: 2px 0;
+    box-sizing: border-box;
+  }
+  
+  .contesclass {
+    float: left;
+    width: 47%;
+    height: 700px;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .judge {
+    width: 250px;
+    padding: 5px 3px;
+    margin: 2px 0;
+    box-sizing: border-box;
+  }
+  
+  .judgeform {
+    float:right;
+    width: 45%;
+    height: 420px;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  /*button
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }*/
+  
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #ae36f4;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  a:hover, a:active {
+    background-color: #ae36f4;
+    color: white;
+  }
+  
+  /**************/
+  

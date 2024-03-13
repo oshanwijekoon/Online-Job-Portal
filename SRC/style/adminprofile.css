@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+    background-color: #fcfcfc;
+  
+    
+  
+    
+}
+  
+header {
+    background-color: #333;
+    color: rgb(120, 13, 13);
+    padding: 20px 0;
+    text-align: center;
+  }
+
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding-left: 800px ;
+  }
+*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*body{
+    margin: 0 100px;
+    background-image: url(../images/emblem-icon-banner-badge-graphic.jpg); 
+  }*/
+  
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    background-color: white;
+  }
+  
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000;
+    padding-left: 20px;
+    
+  }
+  /* colour of the Hub section in name */
+.nav .logo b{
+    color: #ff511c;
+  
+  }
+  /* colour of the job section in name */
+.nav ul{
+    display: flex;
+    list-style: none;
+  }
+  
+.nav ul li{
+    margin-right: 30px;
+  }
+  
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+  
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+  
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    
+  }
+  
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+li{
+    padding: 2px;
+  }
+.checked{
+    color: yellow;
+  }
+  
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+  }
+
+footer{
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    
+  }
+  
+.footerContainer{
+    width: 90%;
+    padding: 10px 10px 10px;
+  }
+  
+.socialIcons{
+    display: flex;
+    justify-content: center;
+  }
+  
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+  
+.socialIcons a:hover{
+    background-color: #ff511c;
+    transition: 0.9;
+  }
+  
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+  
+.footerNav{
+    margin: 30px 0;
+  }
+  
+  
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+.footerNav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  
+.footerNav ul li a:hover{
+    opacity: 1;
+  }
+  
+.footerBottom{
+    /*background-color: #000;*/
+    padding: 10px;
+    text-align: center;
+  }
+  
+.footerBottom p{
+    color: black;
+  }
+  
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  
+ @media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+.footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+  }
+
+.container {
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 80%;
+    /* max-width: 200px; */
+    margin: 0 auto;
+  
+  }
+  
+  
+label {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+      color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    height: 150px;
+	width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
